@@ -78,5 +78,10 @@ namespace ProjWebFormsAgendaConsultaP1
             TxtData.Text = String.Empty;
             TxtHorario.Text = String.Empty;
         }
+
+        protected void GVAgenda_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
